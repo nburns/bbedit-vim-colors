@@ -1,14 +1,13 @@
 " Vim color file
 " Converted from Textmate theme BBEdit using Coloration v0.2.4 (http://github.com/sickill/coloration)
 
-set background=dark
 highlight clear
 
 if exists("syntax_on")
   syntax reset
 endif
 
-let g:colors_name = "BBEdit"
+let g:colors_name = "bbedit"
 
 hi Cursor  guifg=NONE guibg=#000000 gui=NONE
 hi Visual  guifg=NONE guibg=#ffd420 gui=NONE
